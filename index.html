@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find your Body Mass Index!</h1>
+        <form>
+            <p>
+                <label>Enter your Height in Centimeters:</label>
+                <input type="text" id="height" placeholder="height">
+            </p>
+            <p>
+                <label>Enter your Weight in Kilograms:</label>
+                <input type="text" id="weight" placeholder="weight">
+            </p>
+            <button>Find BMI</button>
+            <div id="results"></div>
+            <div id="weight-guide">
+                <h3>BMI Weight Guide</h3>
+                <p>Under weight = less then 18.6</p>
+                <p>Normal range = 18.6 to 24.9</p>
+                <p>Over weight = Greater than 24.9</p>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
